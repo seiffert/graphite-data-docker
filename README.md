@@ -5,7 +5,7 @@ Use together with pseiffert/graphite ([github](https://github.com/seiffert/graph
 
 1) Run the data volume container:
 
-	docker run pseiffert/graphite-data
+	docker run --name=graphite-data pseiffert/graphite-data
 
 2) Run carbon
 
